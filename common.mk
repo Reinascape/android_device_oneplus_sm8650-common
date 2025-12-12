@@ -143,10 +143,10 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, hardware/dolby/dolby.mk)
 
 # Doze
-ifneq ($(TARGET_IS_TABLET),true)
-PRODUCT_PACKAGES += \
-    OplusDoze
-endif
+#ifneq ($(TARGET_IS_TABLET),true)
+#PRODUCT_PACKAGES += \
+#    OplusDoze
+#endif
 
 # DRM
 PRODUCT_PACKAGES += \
