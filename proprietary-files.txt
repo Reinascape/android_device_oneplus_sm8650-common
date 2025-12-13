@@ -960,6 +960,9 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
+# Tinyxml
+vendor/lib64/libtinyxml2_1.so
+
 # Trusted Execution Environment connector
 vendor/lib64/libGPMTEEC_vendor.so
 vendor/lib64/libGPTEE_vendor.so
